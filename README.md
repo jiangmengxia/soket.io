@@ -2,14 +2,14 @@
 # 简单的群聊功能
 
 
-#---------------------前端---------------------------
-#目录：app/client
-#技术：使用webpack+vue+vue-router+socket.io
-#环境只配置了dev,入口文件app/client/main.js
-#端口号初始8000，多启动几个服务一次8081,8082....
-#命令：npm run dev:client
+#---------------------前端---------------------------<br/>
+#目录：app/client<br/>
+#技术：使用webpack+vue+vue-router+socket.io<br/>
+#环境只配置了dev,入口文件app/client/main.js<br/>
+#端口号初始8000，多启动几个服务一次8081,8082....<br/>
+#命令：npm run dev:client<br/>
 
-#
+
 
 #---------------------后端---------------------------<br/>
 #目录：app/server<br/>
