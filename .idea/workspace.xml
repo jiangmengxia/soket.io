@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d282f5b-6be3-4d29-94b1-2437c9a6d8d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/client/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/client/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/server/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/server/code.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/server/db/apicloud.db.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/server/db/apicloud.db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/webpack.dev.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/webpack.prod.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="5d282f5b-6be3-4d29-94b1-2437c9a6d8d7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -28,7 +15,7 @@
     <session id="-912057947">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
@@ -87,7 +74,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
+            <state relative-caret-position="229">
               <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
             </state>
           </provider>
@@ -202,12 +189,6 @@
               <item name="soket.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="soket.io" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soket.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soket.io" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -265,18 +246,17 @@
       <updated>1565786126037</updated>
       <workItem from="1565786127692" duration="38991000" />
       <workItem from="1565920421728" duration="18971000" />
-      <workItem from="1565939442722" duration="6421000" />
+      <workItem from="1565939442722" duration="7044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64383000" />
+    <option name="totallyTimeSpent" value="65006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26449564" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26449564" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -289,7 +269,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2597865" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2597865" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -545,7 +525,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
+        <state relative-caret-position="229">
           <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
         </state>
       </provider>
