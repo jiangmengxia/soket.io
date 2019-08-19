@@ -13806,7 +13806,7 @@ module.exports = function(obj, fn){
 /***/ (function(module, exports) {
 
 module.exports = {
-    BASE_URL: 'http://localhost:3000'
+    BASE_URL: 'http://47.240.26.169:3000'
 }
 
 

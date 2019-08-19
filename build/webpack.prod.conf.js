@@ -13,7 +13,7 @@ module.exports = merge(require('./webpack.base.conf'), {
     },
     output: {
         filename: '[name].[chunkhash:8].js',
-        publicPath: "/public/"
+        publicPath: "./"
     },
     // module: {
     //     rules: [
