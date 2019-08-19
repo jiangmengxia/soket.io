@@ -2,6 +2,7 @@ const path = require('path')
 const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
+// const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const merge = require('webpack-merge')
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
 const htmlWebpackPlugin = require('html-webpack-plugin')
@@ -18,27 +19,27 @@ module.exports = merge(require('./webpack.base.conf'), {
     // module: {
     //     rules: [
     //         {
-    //             test: /\.css$/,
-    //             use: [
-    //                 {
-    //                     loader: MiniCssExtractPlugin.loader,
-    //                     options: {
-    //                         publicPath: '../'
-    //                     }
-    //                 },
-    //                 'css-loader',
-    //                 {
-    //                     options: {
-    //                         sourceMap: true //编译效率会更高
-    //                     }
-    //                 },
-    //             ]
+    //             test: /\.vue$/,
+    //             loader: 'vue-loader',
+    //             options: {
+    //                 loaders: {
+    //                     css: ExtractTextPlugin.extract({
+    //                         use: 'css-loader',
+    //                         fallback: 'vue-style-loader' // 这是vue-loader的依赖
+    //                     })
+    //                 }
+    //             }
     //         }
     //     ]
     // },
     plugins: [
         new VueLoaderPlugin(),
-        new htmlWebpackPlugin(),
+        // new ExtractTextPlugin(),
+        new htmlWebpackPlugin({
+            filename: './index.html',
+            template: './index.html',
+            title: '首页',
+        }),
         new CleanWebpackPlugin(),
         new MiniCssExtractPlugin({
             filename: 'css/[name].[contenthash:8].css'
